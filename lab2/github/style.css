@@ -1,0 +1,191 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Helvetica, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #24292f;
+}
+
+/* MAIN CONTAINER */
+.main-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 60px 20px;
+}
+
+/* HEADER */
+#header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+#headline {
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+
+#desc {
+    max-width: 750px;
+    margin: 0 auto 24px;
+    color: #57606a;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.header-btn {
+    background-color: #24292f;
+    color: white;
+    padding: 12px 22px;
+    border-radius: 6px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.header-btn:hover {
+    background-color: #1b1f23;
+}
+
+/* PRICING CARDS */
+#pricing-cards {
+    display: flex;
+    gap: 24px;
+    justify-content: center;
+}
+
+/* CARD */
+.pricing-card {
+    width: 32%;
+    background-color: #ffffff;
+    border: 1px solid #d0d7de;
+    border-radius: 12px;
+    padding: 28px 24px;
+    position: relative;
+}
+
+/* TITLES */
+.card-title {
+    font-size: 24px;
+    margin-bottom: 6px;
+}
+
+.desc {
+    color: #57606a;
+    font-size: 14px;
+    margin-bottom: 16px;
+}
+
+/* PRICE */
+.price {
+    font-size: 14px;
+    margin-bottom: 20px;
+}
+
+.price span {
+    font-size: 32px;
+    font-weight: 700;
+}
+
+/* BUTTONS */
+.black-btn {
+    width: 100%;
+    background-color: #24292f;
+    color: white;
+    padding: 10px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.black-btn:hover {
+    background-color: #1b1f23;
+}
+
+.white-btn {
+    width: 100%;
+    background-color: white;
+    color: #24292f;
+    padding: 10px;
+    border-radius: 6px;
+    border: 1px solid #d0d7de;
+    font-weight: 600;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.white-btn:hover {
+    background-color: #f6f8fa;
+}
+
+/* FEATURES */
+.features {
+    margin-top: 20px;
+}
+
+.feature {
+    font-size: 14px;
+    color: #24292f;
+    margin-bottom: 10px;
+    padding-left: 18px;
+    position: relative;
+}
+
+.feature::before {
+    content: ">";
+    position: absolute;
+    left: 0;
+    color: #808080;
+    font-weight: bold;
+}
+
+/* RECOMMENDED CARD */
+.most-popular-badge {
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #0969da;
+    color: white;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 4px 12px;
+    border-radius: 999px;
+}
+
+.pricing-card:nth-child(3) {
+    border: 2px solid #0969da;
+    box-shadow: 0 8px 24px rgba(9, 105, 218, 0.15);
+}
+
+
+/* 📱 MOBILE VERSION */
+@media (max-width: 768px) {
+
+    #pricing-cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .pricing-card {
+        width: 100%;
+        max-width: 420px;
+    }
+
+    #headline {
+        font-size: 28px;
+    }
+
+    #desc {
+        font-size: 14px;
+    }
+}
