@@ -1,0 +1,45 @@
+.filters {
+  display: flex;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.filters a {
+  padding: 6px 12px;
+  border-radius: 6px;
+  text-decoration: none;
+  background-color: #eeeeee;
+  color: black;
+  transition: 0.2s;
+}
+
+.filters a:hover {
+  background-color: #cccccc;
+}
+
+.filters a.active {
+  background-color: #1976d2;
+  color: white;
+}
+
+.todo-list {
+  list-style: none;
+  padding: 0;
+}
+
+.todo-list li {
+  padding: 8px 0;
+  border-bottom: 1px solid #dddddd;
+  display: flex;
+  gap: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}
+
+.counter {
+  margin-bottom: 10px;
+  font-weight: bold;
+}

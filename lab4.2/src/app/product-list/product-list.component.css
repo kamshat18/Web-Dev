@@ -1,0 +1,11 @@
+.list{
+    display: grid;
+    gap:14px;
+}
+.empty{
+    margin:0;
+    padding:18px;
+    border:1px dashed #ccc;
+    color: #2e3d49;
+    background: #e1e1e1;
+}

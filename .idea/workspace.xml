@@ -1,0 +1,233 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="092ce00b-4dba-43e7-8d80-af40d5d741ba" name="Changes" comment="lab4">
+      <change afterPath="$PROJECT_DIR$/lab6/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/READ.ME" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/angular.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/app.component.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/app.component.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/app.component.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/app.config.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/app.module.spec.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/app.routes.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/main.ts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/package-lock.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/tsconfig.app.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lab6/tsconfig.spec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-store" beforeDir="false" afterPath="$PROJECT_DIR$/online-store" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-store/src/app/product-list/product-list.html" beforeDir="false" afterPath="$PROJECT_DIR$/online-store/src/app/product-list/product-list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-store/src/app/product-list/product-list.ts" beforeDir="false" afterPath="$PROJECT_DIR$/online-store/src/app/product-list/product-list.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/online-store/src/app/product.ts" beforeDir="false" afterPath="$PROJECT_DIR$/online-store/src/app/product.ts" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+        <option value="tsconfig.json" />
+        <option value="TypeScript File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;kamshat18&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/kamshat18/Web-Dev.git&quot;,
+    &quot;accountId&quot;: &quot;9d708004-3819-436f-8e68-2ea7e88dc743&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
+  <component name="ProjectId" id="38spU6RVPQ6Iu1cQ64kmDVTWqlz" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "JavaScript Debug.index.html (1).executor": "Run",
+    "JavaScript Debug.index.html.executor": "Run",
+    "JavaScript Debug.pr.html.executor": "Run",
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Node.js.app.ts.executor": "Run",
+    "Node.js.product-list.ts.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
+    "git-widget-placeholder": "Merging main",
+    "ignore.virus.scanning.warn.message": "true",
+    "javascript.preferred.runtime.type.id": "node",
+    "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "C:/Users/kamshat/Desktop/web-dev",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "to.speed.mode.migration.done": "true",
+    "ts.external.directory.path": "C:\\Users\\kamshat\\Desktop\\web-dev\\pr\\my-todo-app\\node_modules\\typescript\\lib",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kamshat\Desktop\web-dev" />
+      <recent name="C:\Users\kamshat\Desktop\web-dev\online-store" />
+      <recent name="C:\Users\kamshat\Desktop\web-dev\lab2\images" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kamshat\Desktop\web-dev\lab7" />
+      <recent name="C:\Users\kamshat\Desktop\web-dev\lab7\task2" />
+      <recent name="C:\Users\kamshat\Desktop\web-dev" />
+      <recent name="C:\Users\kamshat\Desktop\web-dev\todo-project\mysite" />
+      <recent name="C:\Users\kamshat\Desktop\web-dev\todo-project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.index.html">
+    <configuration name="index.html (1)" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/lab2/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/lab2/task1/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="pr.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/web-dev/pr.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="app.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/online-store/src/app/app.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/online-store/src/app">
+      <method v="2" />
+    </configuration>
+    <configuration name="product-list.ts" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/online-store/src/app/product-list/product-list.ts" typescript-loader="bundled" working-dir="$PROJECT_DIR$/online-store/src/app/product-list">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="Node.js.product-list.ts" />
+        <item itemvalue="Node.js.app.ts" />
+        <item itemvalue="JavaScript Debug.index.html (1)" />
+        <item itemvalue="JavaScript Debug.pr.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-9b0f141eb926-JavaScript-WS-253.30387.83" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="092ce00b-4dba-43e7-8d80-af40d5d741ba" name="Changes" comment="" />
+      <created>1769598148280</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1769598148280</updated>
+      <workItem from="1769598149763" duration="662000" />
+      <workItem from="1769598849744" duration="802000" />
+      <workItem from="1769599913484" duration="4896000" />
+      <workItem from="1770106067462" duration="2401000" />
+      <workItem from="1770120316126" duration="6325000" />
+      <workItem from="1770135318640" duration="10782000" />
+      <workItem from="1770197479950" duration="11308000" />
+      <workItem from="1770297761139" duration="867000" />
+      <workItem from="1770708244246" duration="597000" />
+      <workItem from="1770806072287" duration="672000" />
+      <workItem from="1770815549178" duration="1624000" />
+      <workItem from="1771230859494" duration="5904000" />
+      <workItem from="1771242085056" duration="660000" />
+      <workItem from="1771305800054" duration="5014000" />
+      <workItem from="1771311678213" duration="4781000" />
+      <workItem from="1771322371489" duration="7262000" />
+      <workItem from="1771412270726" duration="6815000" />
+      <workItem from="1771916356991" duration="14151000" />
+      <workItem from="1771952732775" duration="2673000" />
+      <workItem from="1772020774105" duration="4973000" />
+      <workItem from="1772522008209" duration="1025000" />
+      <workItem from="1772559038348" duration="304000" />
+      <workItem from="1772625907547" duration="299000" />
+      <workItem from="1773731727166" duration="1364000" />
+      <workItem from="1773733122804" duration="5935000" />
+      <workItem from="1773821045042" duration="1786000" />
+      <workItem from="1773829949686" duration="3217000" />
+    </task>
+    <task id="LOCAL-00001" summary="lab4">
+      <option name="closed" value="true" />
+      <created>1771412870728</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1771412870728</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="OPEN_GENERIC_TABS">
+      <map>
+        <entry key="db755184-d9dc-4621-aa05-cbe3a295571f" value="TOOL_WINDOW" />
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="db755184-d9dc-4621-aa05-cbe3a295571f">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="lab4" />
+    <option name="LAST_COMMIT_MESSAGE" value="lab4" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/online-store/src/app/product-list/product-list.ts</url>
+          <line>171</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

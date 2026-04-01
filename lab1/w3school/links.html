@@ -1,0 +1,61 @@
+The HTML <a> tag defines a hyperlink. It has the following syntax:
+
+<a href="url">link text</a>
+HTML Links - The target Attribute
+By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.
+
+The target attribute specifies where to open the linked document.
+
+The target attribute can have one of the following values:
+
+_self - Default. Opens the document in the same window/tab as it was clicked
+_blank - Opens the document in a new window or tab
+_parent - Opens the document in the parent frame
+_top - Opens the document in the full body of the window
+Example
+Use target="_blank" to open the linked document in a new browser window or tab:
+
+<a href="https://www.w3schools.com/" target="_blank">Visit W3Schools!</a>
+First, use the id attribute to create a bookmark:
+
+<h2 id="C4">Chapter 4</h2>
+Then, add a link to the bookmark ("Jump to Chapter 4"), from within the same page:
+
+Example
+<a href="#C4">Jump to Chapter 4</a>
+HTML Link Colors
+By default, a link will appear like this (in all browsers):
+
+An unvisited link is underlined and blue
+A visited link is underlined and purple
+An active link is underlined and red
+You can change the link state colors, by using CSS:
+
+Example
+Here, an unvisited link will be green with no underline. A visited link will be pink with no underline. An active link will be yellow and underlined. In addition, when mousing over a link (a:hover) it will become red and underlined:
+
+<style>
+a:link {
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: pink;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: red;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: yellow;
+  background-color: transparent;
+  text-decoration: underline;
+}
+</style>

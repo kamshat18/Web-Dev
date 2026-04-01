@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>To-Do List</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        main {
+            background: #ffffff;
+            width: 100%;
+            max-width: 400px;
+            margin-top: 40px;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        header h1 {
+            margin: 0;
+        }
+
+        form {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+
+        label {
+            display: none;
+        }
+
+        input[type="text"] {
+            flex: 1;
+            padding: 8px;
+            font-size: 16px;
+        }
+
+        button {
+            padding: 8px 12px;
+            font-size: 16px;
+            cursor: pointer;
+            border: none;
+            border-radius: 4px;
+        }
+
+        .add-btn {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        ul {
+            list-style: none;
+            padding: 0;
+            margin: 0;
+        }
+
+        li {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 8px;
+            border-bottom: 1px solid #ddd;
+        }
+
+        .task {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            flex: 1;
+        }
+
+        .task.done span {
+            text-decoration: line-through;
+            color: #888;
+        }
+
+        .delete-btn {
+            background-color: #e74c3c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+
+<main>
+    <header>
+        <h1>To-Do List</h1>
+    </header>
+
+    <form id="todo-form">
+        <label for="todo-input">New Task</label>
+        <input type="text" id="todo-input" placeholder="Enter a task">
+        <button type="submit" class="add-btn">Add</button>
+    </form>
+
+    <ul id="todo-list"></ul>
+</main>
+
+<script>
+    const form = document.getElementById("todo-form");
+    const input = document.getElementById("todo-input");
+    const list = document.getElementById("todo-list");
+
+    form.addEventListener("submit", function (event) {
+        event.preventDefault();
+
+        const text = input.value.trim();
+        if (text === "") return;
+
+        const li = document.createElement("li");
+        const taskDiv = document.createElement("div");
+        const checkbox = document.createElement("input");
+        const span = document.createElement("span");
+        const deleteBtn = document.createElement("button");
+
+
+        taskDiv.className = "task";
+
+        checkbox.type = "checkbox";
+
+        span.textContent = text;
+
+        deleteBtn.textContent = "Delete";
+        deleteBtn.className = "delete-btn";
+
+
+        checkbox.addEventListener("change", function () {
+            taskDiv.classList.toggle("done");
+        });
+
+        deleteBtn.addEventListener("click", function () {
+            list.removeChild(li);
+        });
+
+
+        taskDiv.appendChild(checkbox);
+        taskDiv.appendChild(span);
+
+        li.appendChild(taskDiv);
+        li.appendChild(deleteBtn);
+
+        list.appendChild(li);
+
+        input.value = "";
+    });
+</script>
+
+</body>
+</html>
